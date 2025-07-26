@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Malla Interactiva - Contaduría Pública</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Malla Interactiva - Contaduría Pública</h1>
+    <div id="malla-container"></div>
+
+    <div id="detalle-materia" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="cerrarDetalle()">&times;</span>
+            <h2 id="materia-nombre"></h2>
+            <p><strong>Créditos:</strong> <span id="materia-creditos"></span></p>
+            <p><strong>Prerrequisitos:</strong> <span id="materia-prerrequisitos"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
